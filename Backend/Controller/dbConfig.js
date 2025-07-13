@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+dotenv.config();
 
-const mongoUrl = 'mongodb://127.0.0.1:27017/Portfolio';
+const mongoUrl = process.env.MongoULR;
 
 mongoose.connect(mongoUrl);
 

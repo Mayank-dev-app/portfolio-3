@@ -7,14 +7,14 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: "http://localhost:5173", 
+  origin: process.env.localHOST, 
   methods: ['POST', 'GET', 'DELETE'],
   credentials: true
 }));
 
-app.use("/user/", require('./Controller/login')); // ✅ make sure this exports Router
+app.use("/user/", require('./Controller/login')); // this exports Router
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-    console.log(`🚀 Server is listening on port ${PORT}`);
+    console.log(` Server is listening on port ${PORT}`);
 });

@@ -1,4 +1,4 @@
-import mymage from "../image/MyImage.jpg";
+import mymage from "../image/MyImage.jpeg";
 import AboutportFolio from '../image/portfolio/AboutPortFolio.png';
 import ContactportFolio from '../image/portfolio/ContactPortFolio.png';
 import projectPortFolio from '../image/portfolio/projectsPortfolio.png';

@@ -36,7 +36,7 @@ const Home = () => {
             </button>
           </div>
 
-          <img src={myImage} alt="My  Image" className="w-52 h-52 rounded-full object-cover shadow-xl border-4 border-indigo-500
+          <img src={images.mymage} alt="My  Image" className="w-52 h-52 rounded-full object-cover shadow-xl border-4 border-indigo-500
             lg:w-100 lg:h-100 lg:mt-10 motion-safe:animate-spin " />
 
         </div>

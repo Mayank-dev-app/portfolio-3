@@ -19,7 +19,7 @@ const CreateAccount = () => {
         e.preventDefault();
         setSubmitting(true);
         try {
-            const res = await axios.post('http://localhost:8000/user/createAccount', formValue);
+            const res = await axios.post('https://portfoliobackend-n40t.onrender.com/user/createAccount', formValue);
             localStorage.setItem("token", res.data.token);
             setLogedIn(true);
             navigate("/");

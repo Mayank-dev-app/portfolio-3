@@ -1,4 +1,4 @@
-import myImage from "../image/MyImage.JPG";
+import mymage from "../image/MyImage.JPG";
 import AboutportFolio from '../image/portfolio/AboutPortFolio.png';
 import ContactportFolio from '../image/portfolio/ContactPortFolio.png';
 import projectPortFolio from '../image/portfolio/projectsPortfolio.png';
@@ -14,7 +14,7 @@ import abc from '../image/PersonalNote/abc.png';
 import mayankPDF from '../image/MayankSharma.pdf'
 
 export default {
-  myImage,
+  mymage,
   mayankPDF,
   AboutportFolio,
   ContactportFolio,

@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import myImage from './image/myImage.jpg'
 import { FaReact, FaNodeJs, FaJs, FaCss3Alt, FaDatabase } from "react-icons/fa";
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from "framer-motion";
